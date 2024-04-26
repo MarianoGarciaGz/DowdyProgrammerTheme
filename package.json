@@ -1,0 +1,21 @@
+{
+  "name": "dowdy-programmer-theme",
+  "displayName": "Dowdy Programmer Theme",
+  "description": "The best theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dowdy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dowdy-color-theme.json"
+      }
+    ]
+  }
+}
